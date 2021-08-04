@@ -140,8 +140,9 @@ namespace cSeaBattle
 			}
 			PrintTitle();
 			ShowBattlefield(true);
+			Console.Write("Нажмите любую клавишу для выхода.");
+			Console.ReadLine();
 		}
-
 
 		public void ShowBattlefield(bool showShips)
 		{
